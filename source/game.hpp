@@ -5,7 +5,7 @@
 
 #include "video.hpp"
 #include "scene.hpp"
-#include "gamepad.hpp"
+#include "gamepad/gamepad.hpp"
 #include "model.hpp"
 #include "entt.hpp"
 
