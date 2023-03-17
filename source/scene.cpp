@@ -84,7 +84,7 @@ Scene::Scene(Video *video_, entt::registry *registry_)
 
     /* Load textures */
     TPL_OpenTPLFromMemory(&spriteTPL, (void *)textures_tpl,textures_tpl_size);
-	TPL_GetTexture(&spriteTPL,drunkentimes,&texObj);
+	TPL_GetTexture(&spriteTPL,modeltex,&texObj);
 }
 
 
