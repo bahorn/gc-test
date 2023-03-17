@@ -10,7 +10,7 @@
 #include <math.h>
 
 #include "game.hpp"
-#include "scene/model.h"
+#include "generated/models.h"
 
 
 Game::Game() {
@@ -36,7 +36,6 @@ Game::Game() {
     }
 
     std::cout << "Starting game!" << std::endl;
-
 
     tick = 0.0;
 }
