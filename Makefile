@@ -18,10 +18,10 @@ include $(DEVKITPPC)/gamecube_rules
 #---------------------------------------------------------------------------------
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
-SOURCES		:=	source source/gamepad
+SOURCES		:=	source source/gamepad source/video source/scene
 DATA		:=
 TEXTURES	:=	textures 
-INCLUDES	:=  include
+INCLUDES	:=  include source
 
 #---------------------------------------------------------------------------------
 # options for code generation

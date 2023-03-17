@@ -4,7 +4,7 @@
 #include <gccore.h>
 #include <math.h>
 #include "entt.hpp"
-#include "video.hpp"
+#include "video/video.hpp"
 
 /* Wrapper around GX to draw a scene */
 

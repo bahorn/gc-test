@@ -10,7 +10,7 @@
 #include <math.h>
 
 #include "game.hpp"
-#include "model.h"
+#include "scene/model.h"
 
 
 Game::Game() {

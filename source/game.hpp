@@ -3,10 +3,11 @@
 #include <array>
 #include <vector>
 
-#include "video.hpp"
-#include "scene.hpp"
+#include "video/video.hpp"
+#include "scene/scene.hpp"
+#include "scene/model.hpp"
 #include "gamepad/gamepad.hpp"
-#include "model.hpp"
+
 #include "entt.hpp"
 
 class Game {
